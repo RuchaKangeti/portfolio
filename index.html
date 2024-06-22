@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rucha resume</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer">
+  <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+  <a id="home"></a>
+  <header>
+    <nav>
+      <h1>Rucha Kangeti</h1>
+      <div class="burger">
+        <i class="fa-solid fa-bars"></i>
+      </div>
+      <ul class="links">
+        <li><a href="#home"><i class="fa-solid fa-home"></i></a></li>
+        <li><a href="#skill"><i class="fa-solid fa-lightbulb"></i></a></li>
+        <li><a href="#project"><i class="fa-solid fa-flask"></i></a></li>
+        <li><a href="#contact"><i class="fa-solid fa-phone"></i></a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <div class="container">
+      <div class="text">
+        <div class="grp">
+          <h2>Welcome to my profile</h2>
+          <h1>
+            Hi, I'm <span>Rucha Kangeti</span><br>
+          </h1>
+          <h2><i id="location" class="fa-solid fa-location-dot"></i>Hyderabad</h2>
+          <p class="para">
+            A 19 year-old front-end enthusiast who loves spending time learning and expermenting new stuffs and
+            technologies.
+          </p>
+        </div>
+      </div>
+    </div>
+  </main>
+  <!-- about section  -->
+
+  <div class="about" id="skill">
+    <div class="container">
+      <div class="skills">
+        <h2>Skills</h2>
+        <div class="wrapper">
+          <div>
+            <i class="fa-brands fa-html5"></i>
+          </div>
+          <div>
+            <i class="fa-brands fa-css3-alt"></i>
+          </div>
+          <div>
+            <i class="fa-brands fa-js"></i>
+          </div>
+          <div>
+            <i class="fa-brands fa-react"></i>
+          </div>
+          <div>
+            <i class="fa-brands fa-figma"></i>
+          </div>
+          <div>
+            <i class="fa-brands fa-c"></i>
+          </div>
+          <div>
+            <i class="fa-brands fa-c"><span class="plus">++</span></i>
+          </div>
+          <div>
+            <i class="fa-brands fa-python"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="projects" id="project">
+    <div class="container">
+      <h1 class="title">Projects</h1>
+      <div class="projects-wrapper">
+        <div class="project">
+          <div class="card">
+            <div class="overview">
+              <h1>Jotion (notion clone)</h1>
+              <div class="btns">
+                <a href="https://www.linkedin.com/in/ruchakangeti" target="_blank">
+                  <i class="fa-brands fa-github"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/ruchakangeti" target="_blank">
+                  <i class="fa-solid fa-link"></i>
+                </a>
+              </div>
+            </div>
+            <img src="img/bg.jpg" alt="project 1">
+          </div>
+        </div>
+
+        <div class="project">
+          <div class="card">
+            <div class="overview">
+              <h1>Movies4u</h1>
+              <div class="btns">
+                <a href="https://www.linkedin.com/in/ruchakangeti" target="_blank">
+                  <i class="fa-brands fa-github"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/ruchakangeti" target="_blank">
+                  <i class="fa-solid fa-link"></i>
+                </a>
+              </div>
+            </div>
+            <img url='img/bg.jpg' alt="moviesProject_img">
+          </div>
+        </div>
+
+        <div class="project">
+          <div class="card">
+            <div class="overview">
+              <h1>Weather App</h1>
+              <div class="btns">
+                <a href="https://www.linkedin.com/in/ruchakangeti" target="_blank">
+                  <i class="fa-brands fa-github"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/ruchakangeti" target="_blank">
+                  <i class="fa-solid fa-link"></i>
+                </a>
+              </div>
+            </div>
+            <img src=" " alt="weatherapp_img">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="contact" id="contact">
+    <div class="container">
+      <div class="header">
+        <h1>Reach me out via</h1>
+      </div>
+      <div class="boxes">
+
+        <div class="wrapper">
+          <div class="grp">
+            <i class="fa-solid fa-envelope"></i>
+            <span>ruchakangeti@gmail.com</span>
+          </div>
+          <div class="grp">
+            <i class="fa-solid fa-phone"></i>
+            <span>+91 *** *** 7878</span>
+          </div>
+          <div class="grp" id="linkedin">
+            <i class="fa-brands fa-linkedin"></i>
+            <a href="https://www.linkedin.com/in/ruchakangeti" target="_blank">
+              <span>@ruchakangeti</span>
+            </a>
+          </div>
+        </div>
+        <!--<div class="footer">
+          <a href="mailto:@ruchakangeti@gmail.com">
+            Hire Me <i class="fa-solid fa-envelope"></i>
+          </a>
+        </div>-->
+        <div class="form">
+          <form id="contactForm">
+            <div class="error" id="nameError"></div>
+            <input type="text" id="name" placeholder="Name" name="name">
+
+            <div class="error" id="emailError"></div>
+            <input type="email" id="email" placeholder="Email" name="email">
+
+            <div class="error" id="messageError"></div>
+            <textarea id="message" placeholder="Message" name="message"></textarea>
+            <div class="button">
+              <button class="btn" type="submit">Submit</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="index.css"></script>
+</body>
+
+</html>
